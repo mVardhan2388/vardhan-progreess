@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+
+.navbar{
+    height: 60px;
+    background-color:  #0f1111;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIsR51GXG-iDpvA-moNxJFcsDIskFu8BEsQ&s);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white
+}
+.addfirst{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    color: white;
+    font-size: rem;
+    margin-left: 3px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+/* .nav-add{
+    display: flex;
+} */
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    /* background-color: orange; */
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    /* width: 100%; */
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd6a;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd6a;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline ;
+    margin-left: 12px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero{
+
+    display: flex;
+    /* align-items: flex-end; */
+    flex-direction: column;
+}
+
+.hero-panel{
+    height: 60px;
+    border-bottom: 3px solid rgb(50, 50, 50);
+    background-color: #007185;
+    display: flex;
+    align-items: center;
+}
+
+.hero-service {
+    height: 37px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #cccccc;
+}
+
+.hero-home {
+    height: 37px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-right: 2px solid #cccccc; */
+}
+
+.hero-dash{
+    height: 640px;
+    padding-top: 40px;
+    background-color: #157383;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.hero-dash h1 {
+    padding-left: 20px;
+    color: #f3f3f3;
+    font-weight: 100;
+}
+
+.hero-dash h4 {
+    padding-left: 20px;
+    color: #f3f3f3;
+    font-weight: 100;
+}
+
+.herobox1-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_order_v2._CB432205751_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.hero-box {
+    height: 95px;
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border: 3px solid transparent;
+    /* flex-direction: column; */
+}
+
+.hero-box:hover{
+    border: 3px solid #febd6a;
+}
+
+.hero-box a{
+    margin-left: 10px;
+}
+
+.hero-dash-boxes{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.herobox2-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_prime_v2._CB432205750_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox3-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_paymentgc_v2._CB432205751_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox4-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_login_security_v2._CB432205751_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox5-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_account_v2._CB432205751_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox6-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_device_v2._CB432205751_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox7-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_dcontent_v3._CB428304563_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox8-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/accessibility._CB653395151_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox9-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/fshub_somethingelse_v3._CB428112012_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox10-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/Login_Icon_2._CB618207853_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.herobox11-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://m.media-amazon.com/images/G/01/x-locale/cs/help/images/gateway/self-service/fshub/suspicious-emails._CB649253146_.png);
+    background-size: cover;
+    margin-left: 30px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #37575a;
+    color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    
+}
+
+.footer-panel1 a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+
+}
+
+.foot-panel2 p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.foot-panel2 ul {
+    font-size: 0.85rem;
+    margin-top: 40px ;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    margin-top: 0.85rem;
+}
+
+.foot-panel3{
+    background-color: #37575a;
+    color: white;
+    border-top: 1px solid rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.footer-logo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIsR51GXG-iDpvA-moNxJFcsDIskFu8BEsQ&s);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+ 
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* font-size: 0.85rem; */
+    height: 80px;
+}
+
+.pages {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyrights {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}

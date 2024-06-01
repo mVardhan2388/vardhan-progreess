@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+
+.navbar{
+    height: 60px;
+    background-color:  #0f1111;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIsR51GXG-iDpvA-moNxJFcsDIskFu8BEsQ&s);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white
+}
+.addfirst{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    color: white;
+    font-size: rem;
+    margin-left: 3px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+/* .nav-add{
+    display: flex;
+} */
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    /* background-color: orange; */
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    /* width: 100%; */
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd6a;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd6a;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline ;
+    margin-left: 12px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img{
+    margin: 20px;
+    max-width: 100%;
+    height: 248px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_LPHeader_Gamers_en_US.png);
+}
+
+.hero h3{
+    font-size: large;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hero-box {
+    height: 251.10px;
+    width: 230.550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.box1-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LP_Nintendo2.png);
+    background-size: cover;
+}
+
+.box2-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LP_Oculus2.jpg);
+    background-size: cover;
+}
+
+.box3-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LP_XBOX2.png);
+    background-size: cover;
+}
+
+.box4-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LP_Laptop.png);
+    background-size: cover;
+}
+
+.box5-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LP_Controller2.png);
+    background-size: cover;
+}
+
+.box6-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LP_Playstation3.jpg);
+    background-size: cover;
+}
+
+.box7-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_LP_Game.png);
+    background-size: cover;
+}
+
+.box8-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Headset.jpg);
+    background-size: cover;
+}
+
+.box9-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Keyboard.jpg);
+    background-size: cover;
+}
+
+.box10-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Chair.jpg);
+    background-size: cover;
+}
+
+.box11-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Mouse.jpg);
+    background-size: cover;
+}
+
+.box12-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Apparel.jpg);
+    background-size: cover;
+}
+
+.box13-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Figure.jpg);
+    background-size: cover;
+}
+
+.box14-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Hat.jpg);
+    background-size: cover;
+}
+
+.box15-img{
+    height: 237px;
+    width: 230.550px;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Karu/2021/June/Karu_Quad_Mug.jpg);
+    background-size: cover;
+}
+
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #37575a;
+    color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    
+}
+
+.footer-panel1 a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+
+}
+
+.foot-panel2 p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.foot-panel2 ul {
+    font-size: 0.85rem;
+    margin-top: 40px ;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    margin-top: 0.85rem;
+}
+
+.foot-panel3{
+    background-color: #37575a;
+    color: white;
+    border-top: 1px solid rgb(0, 0, 0);
+    height: 70px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.footer-logo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIsR51GXG-iDpvA-moNxJFcsDIskFu8BEsQ&s);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+ 
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* font-size: 0.85rem; */
+    height: 80px;
+}
+
+.pages {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyrights {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
